@@ -70,7 +70,7 @@
               <li class="yui3-u-1-5" v-for="(goods,index) in goodsList" :key="goods.id">
                 <div class="list-wrap">
                   <div class="p-img">
-                    <!--产品的图片-->
+                    <!--产品的图片 ke-->
                     <!-- <a href="javascript:;">
                       <img :src="goods.defaultImg" />
                     </a>-->
