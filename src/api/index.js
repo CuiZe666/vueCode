@@ -24,7 +24,7 @@ export const reqCheckCartItem = (skuId, isChecked) => ajax.get(`/cart/checkCart/
 
 // 登录api接口
 export const reqLogin = (mobile, password) => ajax.post(`/user/passport/login`, { mobile, password })
-// 注册接口请求
+// 注册接口
 export const reqRegister = (userInfo) => ajax.post(`/user/passport/register`, userInfo)
 // 退出接口请求
 export const reqLogout = () => ajax.get(`/user/passport/logout`)
